@@ -72,8 +72,8 @@ public class Dungeon {
 
     @Override
     public String toString() {
-        return "Deze dungeon heeft " + kamers.length + " kamers:\n\n" +
-                Arrays.toString(kamers).replace(", ", "").replace("[","").replace("]", "");
+        return "Deze dungeon heeft " + getKamers().length + " kamers:\n\n" +
+                Arrays.toString(getKamers()).replace(", ", "").replace("[","").replace("]", "");
     }
 
     public static void main(String[] args) {
